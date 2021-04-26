@@ -20,7 +20,7 @@ class App
 
     private function initConfigs(): void
     {
-        self::$configs = require(ROOT . 'configs/app.php');
+        self::$configs = require(ROOT . 'database/app.php');
     }
 
     private function initEnvironment(): void

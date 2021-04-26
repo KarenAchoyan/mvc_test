@@ -2,6 +2,7 @@
 
 return [
     '/' => 'HomeController@index',
+    '/home' => 'HomeController@index',
     'tasks'  => 'TaskController@index',
     'tasks/create' => 'TaskController@create',
     'tasks/store' => 'TaskController@store',
